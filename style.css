@@ -182,11 +182,19 @@ section{
 
 .about-me .picture-container{
     width: 50%;
+    position: relative;
     
 }
 
 .about-me .picture-container .profile{
-    width: 70%;
+    width: 60%;
     display: block;
-    margin: 0 auto;
+    margin: 60px auto;
+}
+
+.about-me .picture-container .quadro{
+    width: 500px;
+    height: 520px;
+    position: absolute;
+    top: 0;
 }
