@@ -13,7 +13,7 @@ body,button, input, select, textarea{
     color: white;
 }
 :root{
-    --yellow: #f8df00;
+    --yellow: #fae100;
     --orange: #fe9800;
     --bg-dark: #212226;
     --light-grey: #E0DEDE;
@@ -158,4 +158,35 @@ section{
         height: 17px;
         margin: 0 auto;
     }
+}
+
+/* sobre mim */
+
+.about-me {
+    /* background: red; */
+    display: flex;
+    flex-direction: row;
+    padding: 200px 150px;
+}
+.about-me .container{
+    width: 50%;
+    padding-right: 50px;
+}
+
+.about-me .container h1{
+    color: var(--yellow);
+}
+.about-me .container p{
+    color: var(--light-grey);
+}
+
+.about-me .picture-container{
+    width: 50%;
+    
+}
+
+.about-me .picture-container .profile{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
 }
