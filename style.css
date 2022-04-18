@@ -182,19 +182,30 @@ section{
 
 .about-me .picture-container{
     width: 50%;
+    height: 40%;
+    /* height: fit-content; */
+    text-align: center;
     position: relative;
+
     
 }
 
 .about-me .picture-container .profile{
     width: 60%;
-    display: block;
-    margin: 60px auto;
+    height: 100%;
+    
+    
 }
 
-.about-me .picture-container .quadro{
-    width: 500px;
-    height: 520px;
+.about-me .picture-container .line{
     position: absolute;
-    top: 0;
+    width: calc(60% + 50px);
+    height: calc(100% + 50px);
+    border: 1px solid var(--orange);
+    top: -25px;
+    left: 90px;
+}
+.about-me .picture-container .line.yellow{
+    transform: rotate(-3.3deg);
+    border: 1px solid var(--yellow);
 }
